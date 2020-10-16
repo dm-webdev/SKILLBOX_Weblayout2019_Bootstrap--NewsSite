@@ -1,0 +1,206 @@
+html, body {
+	font-family: Arial;
+}
+.black-bar {
+	background-color: #0e1932;
+}
+h1 {
+	font-size: 16px;
+}
+.select-wrapper {
+	border-bottom: 2px dashed #448ccb;
+	font-size: 14px;
+}
+.weather {
+	background-image: url(img/cloud.png);
+	background-repeat: no-repeat;
+	padding-left: 40px;
+	color: #91919f;
+	font-size: 14px;
+}
+.field-search {
+	border-radius: 22.5px 0 0 22.5px;
+	background-color: #f3f3f3;
+	font-size: 14px;
+	max-height: 45px;
+}
+.button-field-search {
+	background-image: url(img/magnifier.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	border-radius: 0 22.5px 22.5px 0;
+	background-color: #f3f3f3;
+	max-height: 45px;
+}
+.breadcrumb-item+.breadcrumb-item::before {
+	padding-right: 0.8rem;
+	color: #91919f;
+}
+.logo-mobil {
+	font-size: 13px;
+	font-weight: 700;
+	letter-spacing: 0.65px;
+}
+.navbar-toggler-icon {
+	width: 27px;
+	height: 25px;
+	background-image: url(img/button-menu-mobile.png);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.data-block-mobile {
+	color: #91919f;
+}
+.time-mobile {
+	width: 13px;
+	height: 13px;
+	background-image: url(img/icon-time.png);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.weather-mobile {
+	width: 29px;
+	height: 21px;
+	background-image: url(img/cloud.png);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+main {
+	padding-bottom: 60px;
+	padding-top: 20px;
+	background: #f9f9f9 url(img/central-bg-top.png) repeat-x;
+}
+h2 {
+	font-size: 20px; 
+	border-bottom: 1px solid #e5e5e5; 
+	font-weight: 700; 
+	letter-spacing: -0.4px;
+}
+ul {
+	list-style-type: none;
+}
+.link-article-column-left h3 {
+	font-size: 14px;
+	color: black;
+	font-weight: 700;
+	letter-spacing: 0.35px;
+	line-height: 20px;
+}
+.list-column-left {
+	font-size: 14px;
+}
+.props-column-left {
+	color: #91919f;
+	font-size: 12px;
+}
+.props-column-left a {
+	color: #91919f;
+}
+.props-column-left time {
+	background-image: url('img/icon-time.png');
+	background-repeat: no-repeat;
+	background-position: center left;
+}
+.props-comment-column-left {
+	background-image: url('img/comment.png');
+	background-repeat: no-repeat;
+	background-position: center left;
+}
+.button-news-column-left {
+	border-color: #448ccb;
+	width: 80%;
+	height: 45px;
+	border-radius: 22.5px;
+	background-color: white;
+	font-size: 14px;
+	color: #448ccb;
+	cursor: pointer;
+	margin-left: 10%;
+	margin-top: 20px;
+	margin-bottom: 8px;
+}
+.content-article-top-column-centre {
+	font-size: 12px;
+}	
+.title-article-top-column-centre {
+	font-size: 30px;
+	font-weight: 700;
+}
+.title-article-top-column-centre-small {
+	font-size: 22px;
+	font-weight: 700;
+}
+.news-item-props-article-top-column-centre {
+	font-size: 12px;
+}
+.props-time-article-top-column-centre {
+	background-image: url('img/clock-white.png');
+	background-repeat: no-repeat;
+	background-position: left center;
+}
+.title-article-column-centre {
+	font-size: 14px;
+	font-weight: 700;
+	line-height: 20px;
+	letter-spacing: -0.3px;
+}
+.props-central-pak {
+	font-size: 12px;
+}
+.props-link-menu {
+	color: #91919f;
+}
+.props-time-central-pak {
+	background-image: url('img/icon-time.png');
+	background-repeat: no-repeat;
+	background-position: left center;
+}
+.props-comment-central-pak {
+	background-image: url('img/comment.png');
+	background-repeat: no-repeat;
+	background-position: left center;
+}
+.content-left-article-special-news {
+	font-size: 14px;
+}
+footer {
+	background-color: #0e1932;
+}
+.vk {
+	height: 42px;
+	width: 42px;
+	padding: 21px 21px 21px 21px;
+	background-image: url(img/vk.png);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.facebook {
+	padding: 21px 21px 21px 21px;
+	background-image: url(img/facebook.png);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.twitter {
+	padding: 21px 21px 21px 21px;
+	background-image: url(img/twitter.png);
+	background-repeat: no-repeat;
+	background-position: center;
+} 
+.instagram {
+	padding: 21px 21px 21px 21px;
+	background-image: url(img/instagram.png);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.telephon {
+	background-image: url(img/tel.png);
+	background-repeat: no-repeat;
+	line-height: 23px;
+	letter-spacing: -0.5px;
+}
+.email {
+	background-image: url(img/mail.png);
+	background-repeat: no-repeat;
+	line-height: 23px;
+	letter-spacing: -0.5px;
+}
